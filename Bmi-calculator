@@ -1,0 +1,9 @@
+weight=input("What is ur weight? ")
+weight2=int(weight)
+hight=input("What is ur Hight? ")
+hight2=float(hight)
+hight3=0.3048 * hight2
+hight4=hight3 * hight3
+bmi=weight2  / hight4
+print(bmi)
+print("U r BMI is",bmi)
